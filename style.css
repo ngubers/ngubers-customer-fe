@@ -1,0 +1,38 @@
+.account{
+    height: 40px;
+    width: 40px;
+}
+
+.welcomeWord{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.welcome{
+    position: fixed;
+    
+}
+
+.bgCust{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-gosend{
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+
+.header-go-send{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+
+.desc{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
