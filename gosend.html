@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>GoSend</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="berandaCustomer.html"class="navbar-brand fw-bold mx-2">back</a>
+          <h2 class="fw-bold"style="margin-right:705px; color:#2CB978">GoSend</h2>
+        </div>
+    </nav>
+    <div class="sampul bg-gosend" style="background-image: url('img/bg-gosend.png');width: 1519.5px; height: 210px;">
+        <p class="header-go-send mx-5">Pesan Gosend</p>
+        <p class="desc mx-5 mb-5">Nikmati pengiriman barang dengan aman dan nyaman</p>
+    </div>
+
+    <div class="container mt-5" style="margin-top: 300px;">
+        <div class="row">
+            <div class="col-xl-5">
+                <img src="img/loc-sender.png" style="width: 30px ;height: 30px;" alt=""> <p class="fw-bold">Pengirim</p>
+                <form>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" >
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="notelp"  placeholder="No. Telepon">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+                    </div>
+                    
+                    <p class="fw-bold">Jenis Barang</p>
+                    <select class="form-control mb-3">
+                        <option>Makanan</option>
+                        <option>Pakaian</option>
+                        <option>Obat-obatan</option>
+                        <option>Buku</option>
+                        <option>Lainnya</option>
+                    </select>
+
+                    <p class="fw-bold">Deskripsi</p>
+                    <div class="mb-3">
+                      <textarea name="deskripsi" id="deskripsi" cols="69" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-5" style="margin-left: 200px;">
+                <img src="img/loc-receiver.png" style="width: 30px ;height: 30px;" alt=""> <p class="fw-bold">Penerima</p>
+                <form>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" >
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="notelp"  placeholder="No. Telepon">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+                    </div>
+                    
+                    <p class="fw-bold">Metode Pembayaran</p>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="alamat" value="Cash On Delivery">
+                    </div>
+                    <p class="fw-bold">Berat barang</p>
+                    <select class="form-control mb-3">
+                        <option>Kurang dari 5 Kg</option>
+                        <option>5 Kg - 10 Kg</option>
+                        <option>Lebih dari 10 Kg</option>
+                    </select>
+                </form>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success mb-5">Kirim Sekarang</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
