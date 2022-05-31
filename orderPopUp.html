@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Riwayat Order</title>
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #EFEFEF;" >
+        <div class="container-fluid">
+          <a href="index.html"class="navbar-brand fw-bold mx-2">back</a>
+          <h2 class="fw-bold"style="margin-right:600px;">Riwayat Order</h2>
+        </div>
+    </nav>
+<div style="height: 600px; background-color: #F4F4F4;">
+    <div class="w-100 p-3"></div>
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Layanan</th>
+                <th scope="col">Menuju</th>
+                <th scope="col">Driver</th>
+                <th scope="col">Biaya</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Detail</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th scope="row">Go Send</th>
+              <td>sari wangi barat, jl xxxx</td>
+              <td>Supratman</td>
+              <td>Rp 30.000</td>
+              <td>Senin, 3 April 2022</td>
+              <td>
+                <!-- TOMBOL POP UP -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Cek</button>
+
+                <div class="container">                    
+
+                    
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                        
+                          
+                          <div class="modal-header">
+                            <h4 class="modal-title">Order</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          
+                          
+                          <div class="modal-body">
+                              <table class="table table-striped">
+                                  <!-- PERTAMA -->
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Layanan</th>
+                                      <th scope="col"></th>
+                                      <th scope="col"></th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td scope="row">Go send</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                  </tbody>
+                                  <!-- KEDUA -->
+                                  <thead>
+                                      <tr>
+                                        <th scope="col">Dari</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Kadan barat kali suro</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KETIGA -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Menuju</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">sari wangi barat, jl xxxx</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KEEMPAT -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Driver</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Supratman</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KELIMA -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Biaya</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Rp 30.000</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KEENAM -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Tanggal</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Senin, 3 April 2022</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- batas pop up -->
+  
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Go Ride</th>
+              <td>sari wangi barat, jl xxxx</td>
+              <td>Joko Walianto</td>
+              <td>Rp 45.000</td>
+              <td>Senin, 3 April 2022</td>
+              <td>
+                <!-- TOMBOL POP UP -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Cek</button>
+
+                <div class="container">                    
+
+                    
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                        
+                          
+                          <div class="modal-header">
+                            <h4 class="modal-title">Order</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          
+                          
+                          <div class="modal-body">
+                              <table class="table table-striped">
+                                  <!-- PERTAMA -->
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Layanan</th>
+                                      <th scope="col"></th>
+                                      <th scope="col"></th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td scope="row">Go send</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+                                  </tbody>
+                                  <!-- KEDUA -->
+                                  <thead>
+                                      <tr>
+                                        <th scope="col">Dari</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Kadan barat kali suro</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KETIGA -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Menuju</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">sari wangi barat, jl xxxx</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KEEMPAT -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Driver</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Supratman</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KELIMA -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Biaya</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Rp 45.000</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                    <!-- KEENAM -->
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Tanggal</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Senin, 3 April 2022</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- batas pop up -->
+              </td>
+            </tr>
+          </tbody>
+      </table>
+
+</body>
+</html>
