@@ -1,47 +1,64 @@
-.account{
-    height: 40px;
-    width: 40px;
+.App {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding-bottom: 1em;
+  position: relative;
 }
 
-.welcomeWord{
-    font-size: 64px;
-    font-weight: bold;
-    margin-top: 70px;
-}
-.welcome{
-    position: fixed;
-    
-}
-
-.bgCust{
-    position: absolute;
-    top: 67%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+.App::before {
+  background-image: url("/img/bgCust.png");
+  background-repeat: no-repeat;
+  background-position: 115% -5%;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.bg-gosend{
-    position: relative;
-    /* background-repeat: no-repeat; */
+.account {
+  height: 40px;
+  width: 40px;
 }
 
-.header-go-send{
-    font-size: 64px;
-    font-weight: bold;
-    color: white;
+.welcomeWord {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.welcome {
+  position: fixed;
 }
 
-.desc{
-    font-size: 36px;
-    font-weight: bold;
-    color: white;
+.bgCust {
+  position: absolute;
+  top: 67%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-gosend {
+  position: relative;
+  /* background-repeat: no-repeat; */
+}
+
+.header-go-send {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+
+.desc {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
 }
 
 /* .navbar{
     position: absolute;
 } */
 
-.logo{
-    width: 184;
-    height: 33;
+.logo {
+  width: 184;
+  height: 33;
 }
