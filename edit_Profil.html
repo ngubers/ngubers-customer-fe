@@ -14,14 +14,10 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a href="profil.html" class="navbar-brand fw-bold mx-2">back</a>
-            <h2 class="fw-bold" style="margin-right:620px">Profile</h2>
+            <h2 class="fw-bold" style="margin-right:620px;">Profile</h2>
         </div>
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-    </nav>
+
     <div class="container">
         <div class="row">
             <img src="img/person.svg" style="height: 75px; width: 100px;" class="mx-auto mt-5" alt="">
@@ -31,34 +27,39 @@
                 <div class="text-center">
                     <label for="nama" class="form-label" style="margin-right: 450px;">Nama Lengkap</label>
                 </div>
-                <label type="text" class="form-control mx-auto" style="width: 560px;" id="nama" aria-describedby="nama">Subradi</label>
+                <input type="text" class="form-control mx-auto" style="width: 560px;" id="nama" aria-describedby="nama">
             </div>
             <div class="mb-3">
                 <div class="text-center">
                     <label for="email" class="form-label" style="margin-right: 520px;">Email</label>
                 </div>
-                <label type="email" class="form-control mx-auto" style="width: 560px;" id="email">jl@gmail.com</label>
+                <input type="email" class="form-control mx-auto" style="width: 560px;" id="email">
             </div>
             <div class="mb-3">
                 <div class="text-center">
                     <label for="password" class="form-label" style="margin-right: 490px;">Password</label>
                 </div>
-                <label type="password" class="form-control mx-auto" style="width: 560px;" id="password">Password</label>
+                <input type="password" class="form-control mx-auto" style="width: 560px;" id="password">
             </div>
             <div class="mb-3">
                 <div class="text-center">
                     <label for="alamat" class="form-label" style="margin-right: 510px;">Alamat</label>
                 </div>
-                <label type="text" class="form-control mx-auto" style="width: 560px;" id="alamat">Kadan Barat Kali Suro</label>
+                <input type="text" class="form-control mx-auto" style="width: 560px;" id="alamat">
             </div>
             <div class="mb-3">
                 <div class="text-center">
                     <label for="notelp" class="form-label" style="margin-right: 480px;">No Telepon</label>
                 </div>
-                <label type="text" class="form-control mx-auto" style="width: 560px;" id="notelp">1211454536</label>
+                <input type="text" class="form-control mx-auto" style="width: 560px;" id="notelp">
             </div>
             <div class="text-center">
-                <a href="edit_Profil.html" class="btn btn-success px-4 mt-2">Ubah Data</a>
+                <a href="profil.html" class="btn btn-success px-4 mt-2">Simpan</a>
+            </div>
+            <div class="modal-footer">
+                <button href="edit.html" type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
         </form>
-    </div>
+        </div>
 </body>
+
+</html>
